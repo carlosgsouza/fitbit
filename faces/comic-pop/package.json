@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "68620827-02a8-447b-ad98-7bc7b5d838ed",
+    "appType": "clockface",
+    "appDisplayName": "Comic Pop",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Comic Pop"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

@@ -1,0 +1,29 @@
+<svg id="clock">
+  <image href="background.png" />
+  
+  
+  <section id="timeSection">
+    <g transform="rotate(-6)">
+      <text id="timeLabelShadow" />
+      <text id="timeLabelMain" />
+    </g>
+  </section>
+    
+  <section id="dateSection">
+    <g transform="rotate(1)">
+      <text id="dateLabelShadow" />
+      <text id="dateLabelMain" />
+    </g>
+  </section>
+  
+  <section id="statsSection">
+    <g transform="rotate(-14)">
+      <svg>
+        <image id="statsIconShadow" href="calories.png" />
+        <image id="statsIconMain" href="calories.png" />
+        <text id="statsLabelShadow" />
+        <text id="statsLabelMain" />
+      </svg>
+    </g>
+  </section>
+</svg>

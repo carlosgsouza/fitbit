@@ -1,0 +1,88 @@
+#timeSection {
+  x: 50%+10;
+  y: 50%+30;
+}
+
+#timeSection text {
+  font-size: 100;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+}
+
+#timeLabelMain {
+  x: 0;
+  y: 0;
+  fill: white;
+}
+
+#timeLabelShadow {
+  x: -5;
+  y: 5;
+  fill: black;
+}
+
+#dateSection {
+  x: 280;
+  y: 245;
+}
+
+#dateSection text {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+}
+
+#dateLabelMain {
+  x: 0;
+  y: 0;
+  fill: white;
+}
+
+#dateLabelShadow {
+  x: -3;
+  y: 3;
+  fill: black;
+}
+
+#statsSection {
+  x: 40;
+  y: 92;
+}
+
+#statsSection text {
+  font-size: 34;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: center;
+}
+
+#statsLabelMain {
+  x: 50;
+  y: 0;
+  fill: "#ffd966";
+}
+
+#statsLabelShadow {
+  x: 49;
+  y: 1;
+  fill: black;
+}
+
+#statsSection image {
+  height: 32;
+  width: 32;
+}
+
+#statsIconMain {
+  x: 10;
+  y: -30;
+  fill: "#ffd966" ;
+}
+
+#statsIconShadow {
+  x: 9;
+  y: -29;
+  fill: black; 
+}
